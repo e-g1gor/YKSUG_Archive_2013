@@ -1,0 +1,5 @@
+D:\_Output\SharpDevelop\Рассчёт потенциала\Рассчёт потенциала\obj\Debug\Рассчёт потенциала.csprojResolveAssemblyReference.cache
+D:\_Output\SharpDevelop\Рассчёт потенциала\Рассчёт потенциала\bin\Debug\Рассчёт потенциала.exe
+D:\_Output\SharpDevelop\Рассчёт потенциала\Рассчёт потенциала\bin\Debug\Рассчёт потенциала.pdb
+D:\_Output\SharpDevelop\Рассчёт потенциала\Рассчёт потенциала\obj\Debug\Рассчёт потенциала.exe
+D:\_Output\SharpDevelop\Рассчёт потенциала\Рассчёт потенциала\obj\Debug\Рассчёт потенциала.pdb

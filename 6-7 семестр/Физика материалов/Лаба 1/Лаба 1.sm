@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="0.98.6179.21440"?>
+<regions>
+  <settings>
+    <identity>
+      <id>ecd5ae89-66ef-4519-808e-2526a4cea1a7</id>
+      <revision>6</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="true" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="1" orientation="Portrait" width="850" height="1100" />
+      <margins left="39" right="39" top="39" bottom="39" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Studio Desktop" version="0.98.6179.21440" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="Math Region" version="0.98.6179.21440" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="Special Functions" version="1.11.6179.21442" guid="2814e667-4e12-48b1-8d51-194e480eabc5" />
+    </dependencies>
+  </settings>
+  <region id="0" left="27" top="18" width="232" height="63" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">A</e>
+        <e type="operand">50.94</e>
+        <e type="operand">3.024</e>
+        <e type="operand">3.024</e>
+        <e type="operand">90</e>
+        <e type="operand">2</e>
+        <e type="operand">196.97</e>
+        <e type="operand">4.078</e>
+        <e type="operand">4.078</e>
+        <e type="operand">90</e>
+        <e type="operand">4</e>
+        <e type="operand">44.96</e>
+        <e type="operand">3.309</e>
+        <e type="operand">5.268</e>
+        <e type="operand">60</e>
+        <e type="operand">2</e>
+        <e type="operand">3</e>
+        <e type="operand">5</e>
+        <e type="function" preserve="true" args="17">mat</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="1" left="27" top="90" width="512" height="142" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">i</e>
+        <e type="operand">1</e>
+        <e type="operand">A</e>
+        <e type="function" preserve="true" args="1">rows</e>
+        <e type="function" preserve="true" args="2">range</e>
+        <e type="operand">R</e>
+        <e type="operand">i</e>
+        <e type="operand">1</e>
+        <e type="function" preserve="true" args="3">el</e>
+        <e type="operand">A</e>
+        <e type="operand">2</e>
+        <e type="function" preserve="true" args="2">col</e>
+        <e type="operand">i</e>
+        <e type="function" preserve="true" args="2">el</e>
+        <e type="bracket">(</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operand">A</e>
+        <e type="operand">3</e>
+        <e type="function" preserve="true" args="2">col</e>
+        <e type="operand">i</e>
+        <e type="function" preserve="true" args="2">el</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">A</e>
+        <e type="operand">4</e>
+        <e type="function" preserve="true" args="2">col</e>
+        <e type="operand">i</e>
+        <e type="function" preserve="true" args="2">el</e>
+        <e type="operand" style="unit">°</e>
+        <e type="operator" args="2">*</e>
+        <e type="function" preserve="true" args="1">sin</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand" style="unit">Angstrom</e>
+        <e type="operand">3</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">R</e>
+        <e type="operand">i</e>
+        <e type="operand">2</e>
+        <e type="function" preserve="true" args="3">el</e>
+        <e type="operand" style="unit">m.u</e>
+        <e type="operand">A</e>
+        <e type="operand">1</e>
+        <e type="function" preserve="true" args="2">col</e>
+        <e type="bracket">(</e>
+        <e type="operator" args="2">*</e>
+        <e type="bracket">(</e>
+        <e type="operand">i</e>
+        <e type="function" preserve="true" args="2">el</e>
+        <e type="operand">A</e>
+        <e type="operand">5</e>
+        <e type="function" preserve="true" args="2">col</e>
+        <e type="operand">i</e>
+        <e type="function" preserve="true" args="2">el</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">A</e>
+        <e type="operand">2</e>
+        <e type="function" preserve="true" args="2">col</e>
+        <e type="operand">i</e>
+        <e type="function" preserve="true" args="2">el</e>
+        <e type="bracket">(</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operand">A</e>
+        <e type="operand">3</e>
+        <e type="function" preserve="true" args="2">col</e>
+        <e type="operand">i</e>
+        <e type="function" preserve="true" args="2">el</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">A</e>
+        <e type="operand">4</e>
+        <e type="function" preserve="true" args="2">col</e>
+        <e type="operand">i</e>
+        <e type="function" preserve="true" args="2">el</e>
+        <e type="operand" style="unit">°</e>
+        <e type="operator" args="2">*</e>
+        <e type="function" preserve="true" args="1">sin</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand" style="unit">Angstrom</e>
+        <e type="operand">3</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">2</e>
+        <e type="operand">1</e>
+        <e type="function" preserve="true" args="4">line</e>
+        <e type="function" preserve="true" args="3">for</e>
+      </input>
+    </math>
+  </region>
+  <region id="2" left="36" top="234" width="302" height="141" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">R</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">2.7653</e>
+        <e type="operand">10</e>
+        <e type="operand">29</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand" style="unit">m</e>
+        <e type="operand">3</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">6117.7626</e>
+        <e type="operand" style="unit">kg</e>
+        <e type="operand" style="unit">m</e>
+        <e type="operand">3</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">6.7817</e>
+        <e type="operand">10</e>
+        <e type="operand">29</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand" style="unit">m</e>
+        <e type="operand">3</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">19291.5648</e>
+        <e type="operand" style="unit">kg</e>
+        <e type="operand" style="unit">m</e>
+        <e type="operand">3</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">4.9954</e>
+        <e type="operand">10</e>
+        <e type="operand">29</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand" style="unit">m</e>
+        <e type="operand">3</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2989.0653</e>
+        <e type="operand" style="unit">kg</e>
+        <e type="operand" style="unit">m</e>
+        <e type="operand">3</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">3</e>
+        <e type="operand">2</e>
+        <e type="function" preserve="true" args="8">mat</e>
+      </result>
+    </math>
+  </region>
+</regions>

@@ -1,0 +1,20 @@
+C:\Users\Алевтина\AppData\Local\Temporary Projects\шары на нитке\bin\Debug\шары на нитке.exe
+C:\Users\Алевтина\AppData\Local\Temporary Projects\шары на нитке\bin\Debug\шары на нитке.pdb
+C:\Users\Алевтина\AppData\Local\Temporary Projects\шары на нитке\bin\Debug\шары на нитке.xml
+C:\Users\Алевтина\AppData\Local\Temporary Projects\шары на нитке\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Алевтина\AppData\Local\Temporary Projects\шары на нитке\obj\Debug\шары_на_нитке.Form1.resources
+C:\Users\Алевтина\AppData\Local\Temporary Projects\шары на нитке\obj\Debug\шары_на_нитке.Resources.resources
+C:\Users\Алевтина\AppData\Local\Temporary Projects\шары на нитке\obj\Debug\шары на нитке.vbproj.GenerateResource.Cache
+C:\Users\Алевтина\AppData\Local\Temporary Projects\шары на нитке\obj\Debug\шары на нитке.exe
+C:\Users\Алевтина\AppData\Local\Temporary Projects\шары на нитке\obj\Debug\шары на нитке.xml
+C:\Users\Алевтина\AppData\Local\Temporary Projects\шары на нитке\obj\Debug\шары на нитке.pdb
+D:\_Output\VisualBasOutput\шары на нитке\шары на нитке\obj\Debug\шары на нитке.exe
+D:\_Output\VisualBasOutput\шары на нитке\шары на нитке\obj\Debug\шары на нитке.xml
+D:\_Output\VisualBasOutput\шары на нитке\шары на нитке\obj\Debug\шары на нитке.pdb
+D:\_Output\VisualBasOutput\шары на нитке\шары на нитке\bin\Debug\шары на нитке.exe
+D:\_Output\VisualBasOutput\шары на нитке\шары на нитке\bin\Debug\шары на нитке.pdb
+D:\_Output\VisualBasOutput\шары на нитке\шары на нитке\bin\Debug\шары на нитке.xml
+D:\_Output\VisualBasOutput\шары на нитке\шары на нитке\obj\Debug\ResolveAssemblyReference.cache
+D:\_Output\VisualBasOutput\шары на нитке\шары на нитке\obj\Debug\шары_на_нитке.Form1.resources
+D:\_Output\VisualBasOutput\шары на нитке\шары на нитке\obj\Debug\шары_на_нитке.Resources.resources
+D:\_Output\VisualBasOutput\шары на нитке\шары на нитке\obj\Debug\шары на нитке.vbproj.GenerateResource.Cache

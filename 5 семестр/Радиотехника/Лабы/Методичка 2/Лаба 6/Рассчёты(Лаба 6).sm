@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="0.97.5737.24521"?>
+<regions>
+  <settings>
+    <identity>
+      <id>ae73a717-f873-48da-988d-ea71cd05e2b3</id>
+      <revision>15</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="true" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="1" orientation="Portrait" width="850" height="1100" />
+      <margins left="39" right="39" top="39" bottom="39" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Studio Desktop" version="0.97.5737.24521" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="Math Region" version="0.97.5737.24521" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+    </dependencies>
+  </settings>
+  <region id="0" left="18" top="18" width="99" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">L</e>
+        <e type="operand">100</e>
+        <e type="operand" style="unit">μH</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="1" left="18" top="36" width="99" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">C1</e>
+        <e type="operand">120</e>
+        <e type="operand" style="unit">μF</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="2" left="18" top="54" width="90" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">C2</e>
+        <e type="operand">60</e>
+        <e type="operand" style="unit">μF</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="3" left="18" top="72" width="245" height="54" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math decimalPlaces="0">
+      <input>
+        <e type="operand">T</e>
+        <e type="operand">2</e>
+        <e type="operand">π</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">L</e>
+        <e type="operand">1</e>
+        <e type="operand">C1</e>
+        <e type="operator" args="2">/</e>
+        <e type="operand">1</e>
+        <e type="operand">C2</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">+</e>
+        <e type="bracket">(</e>
+        <e type="operand">1</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="function" preserve="true" args="1">sqrt</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <contract>
+        <e type="operand" style="unit">μs</e>
+      </contract>
+      <result action="numeric">
+        <e type="operand">397</e>
+      </result>
+    </math>
+  </region>
+  <region id="4" left="18" top="117" width="127" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math decimalPlaces="0">
+      <input>
+        <e type="operand">v</e>
+        <e type="operand">1</e>
+        <e type="operand">T</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">2516</e>
+        <e type="operand" style="unit">Hz</e>
+        <e type="operator" args="2">*</e>
+      </result>
+    </math>
+  </region>
+  <region id="5" left="18" top="189" width="90" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">L</e>
+        <e type="operand">30</e>
+        <e type="operand" style="unit">μH</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="6" left="18" top="207" width="90" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">v</e>
+        <e type="operand">8000</e>
+        <e type="operand" style="unit">Hz</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="7" left="18" top="225" width="116" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">T</e>
+        <e type="operand">1</e>
+        <e type="operand">v</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <contract>
+        <e type="operand" style="unit">μs</e>
+      </contract>
+      <result action="numeric">
+        <e type="operand">125</e>
+      </result>
+    </math>
+  </region>
+  <region id="8" left="18" top="261" width="201" height="54" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math decimalPlaces="1">
+      <input>
+        <e type="operand">C</e>
+        <e type="operand">2</e>
+        <e type="operand">T</e>
+        <e type="operand">2</e>
+        <e type="operand">π</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">/</e>
+        <e type="bracket">(</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operand">1</e>
+        <e type="operand">L</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">*</e>
+        <e type="bracket">(</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <contract>
+        <e type="operand" style="unit">μF</e>
+      </contract>
+      <result action="numeric">
+        <e type="operand">26.4</e>
+      </result>
+    </math>
+  </region>
+  <region id="9" left="18" top="360" width="73" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">C</e>
+        <e type="operand">10</e>
+        <e type="operand" style="unit">nF</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="10" left="18" top="378" width="73" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">R</e>
+        <e type="operand">20</e>
+        <e type="operand" style="unit">kΩ</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="11" left="18" top="396" width="165" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math decimalPlaces="0">
+      <input>
+        <e type="operand">T</e>
+        <e type="operand">2</e>
+        <e type="operand">π</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">R</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">C</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <contract>
+        <e type="operand" style="unit">μs</e>
+      </contract>
+      <result action="numeric">
+        <e type="operand">1257</e>
+      </result>
+    </math>
+  </region>
+  <region id="12" left="18" top="414" width="119" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math decimalPlaces="0">
+      <input>
+        <e type="operand">v</e>
+        <e type="operand">1</e>
+        <e type="operand">T</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">796</e>
+        <e type="operand" style="unit">Hz</e>
+        <e type="operator" args="2">*</e>
+      </result>
+    </math>
+  </region>
+</regions>

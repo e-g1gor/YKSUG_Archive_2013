@@ -1,0 +1,1364 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="0.97.5346.24640"?>
+<regions>
+  <settings>
+    <identity>
+      <id>69aa213d-5979-4580-92a3-09845a3773c1</id>
+      <revision>4</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="true" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="1" orientation="Portrait" width="850" height="1100" />
+      <margins left="39" right="39" top="39" bottom="39" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependences>
+      <assembly name="SMath Studio Desktop" version="0.97.5346.24640" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="Math Region" version="0.97.5346.24640" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="Special Functions" version="1.11.5346.31403" guid="2814e667-4e12-48b1-8d51-194e480eabc5" />
+      <assembly name="Plot Region" version="1.9.5346.32570" guid="c451c2b5-798b-4f08-b9ec-b90963d1ddaa" />
+    </dependences>
+  </settings>
+  <region id="0" left="18" top="18" width="68" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">R</e>
+        <e type="operand">8.31</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="1" left="90" top="18" width="89" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">T</e>
+        <e type="operand">28</e>
+        <e type="operand">273</e>
+        <e type="operator" args="2">+</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="2" left="198" top="18" width="94" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">π</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">3.1416</e>
+      </result>
+    </math>
+  </region>
+  <region id="3" left="288" top="18" width="119" height="62" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">μ</e>
+        <e type="operand">0.0399481</e>
+        <e type="operand">0.002</e>
+        <e type="operand">0.028</e>
+        <e type="operand">3</e>
+        <e type="operand">1</e>
+        <e type="function" preserve="true" args="5">mat</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="4" left="396" top="18" width="28" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Ar</e>
+      </input>
+    </math>
+  </region>
+  <region id="5" left="396" top="36" width="28" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">h2</e>
+      </input>
+    </math>
+  </region>
+  <region id="6" left="396" top="54" width="28" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">CO</e>
+      </input>
+    </math>
+  </region>
+  <region id="7" left="18" top="126" width="468" height="481" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math optimize="2">
+      <input>
+        <e type="operand">i</e>
+        <e type="operand">0</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">Mar</e>
+        <e type="operand">2</e>
+        <e type="operand">100</e>
+        <e type="function" preserve="true" args="2">matrix</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">step</e>
+        <e type="operand">30</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">v</e>
+        <e type="operand">0</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">n</e>
+        <e type="operand">1</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">A</e>
+        <e type="operand">10000000</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">Mkr</e>
+        <e type="operand">Mar</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">Mar</e>
+        <e type="operand">Mar</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">i</e>
+        <e type="operand">1</e>
+        <e type="operand">100</e>
+        <e type="function" preserve="true" args="2">range</e>
+        <e type="operand">v</e>
+        <e type="operand">i</e>
+        <e type="operand">step</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">Mar</e>
+        <e type="operand">2</e>
+        <e type="operand">i</e>
+        <e type="function" preserve="true" args="3">el</e>
+        <e type="operand">v</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">Mh</e>
+        <e type="operand">2</e>
+        <e type="operand">i</e>
+        <e type="function" preserve="true" args="3">el</e>
+        <e type="operand">v</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">Mco</e>
+        <e type="operand">2</e>
+        <e type="operand">i</e>
+        <e type="function" preserve="true" args="3">el</e>
+        <e type="operand">v</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">Mar</e>
+        <e type="operand">1</e>
+        <e type="operand">i</e>
+        <e type="function" preserve="true" args="3">el</e>
+        <e type="operand">A</e>
+        <e type="operand">4</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">3.141</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">μ</e>
+        <e type="operand">1</e>
+        <e type="function" preserve="true" args="2">el</e>
+        <e type="operand">2</e>
+        <e type="operand">π</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">R</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">T</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">/</e>
+        <e type="bracket">(</e>
+        <e type="operand">3</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">v</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2.718281828</e>
+        <e type="operand">v</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operand">μ</e>
+        <e type="operand">1</e>
+        <e type="function" preserve="true" args="2">el</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2</e>
+        <e type="operand">R</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">T</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">Mh</e>
+        <e type="operand">1</e>
+        <e type="operand">i</e>
+        <e type="function" preserve="true" args="3">el</e>
+        <e type="operand">A</e>
+        <e type="operand">4</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">3.141</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">μ</e>
+        <e type="operand">2</e>
+        <e type="function" preserve="true" args="2">el</e>
+        <e type="operand">2</e>
+        <e type="operand">π</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">R</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">T</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">/</e>
+        <e type="bracket">(</e>
+        <e type="operand">3</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">v</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2.718281828</e>
+        <e type="operand">v</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operand">μ</e>
+        <e type="operand">2</e>
+        <e type="function" preserve="true" args="2">el</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2</e>
+        <e type="operand">R</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">T</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">Mco</e>
+        <e type="operand">1</e>
+        <e type="operand">i</e>
+        <e type="function" preserve="true" args="3">el</e>
+        <e type="operand">A</e>
+        <e type="operand">4</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">3.141</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">μ</e>
+        <e type="operand">3</e>
+        <e type="function" preserve="true" args="2">el</e>
+        <e type="operand">2</e>
+        <e type="operand">π</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">R</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">T</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">/</e>
+        <e type="bracket">(</e>
+        <e type="operand">3</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">v</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2.718281828</e>
+        <e type="operand">v</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operand">μ</e>
+        <e type="operand">3</e>
+        <e type="function" preserve="true" args="2">el</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2</e>
+        <e type="operand">R</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">T</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">7</e>
+        <e type="operand">1</e>
+        <e type="function" preserve="true" args="9">line</e>
+        <e type="function" preserve="true" args="3">for</e>
+        <e type="operand">9</e>
+        <e type="operand">1</e>
+        <e type="function" preserve="true" args="11">line</e>
+      </input>
+    </math>
+  </region>
+  <region id="8" left="54" top="711" width="668" height="559" color="#000000" bgColor="#ffffff" fontSize="10">
+    <plot type="2d" render="lines" scale_x="0.0284487272784119" scale_y="0.00223642716541188" scale_z="0" rotate_x="0" rotate_y="0" rotate_z="0" transpose_x="-310" transpose_y="-253" transpose_z="0">
+      <input>
+        <e type="operand">Mar</e>
+        <e type="function" preserve="true" args="1">transpose</e>
+        <e type="operand">Mh</e>
+        <e type="function" preserve="true" args="1">transpose</e>
+        <e type="operand">Mco</e>
+        <e type="function" preserve="true" args="1">transpose</e>
+        <e type="operand">3</e>
+        <e type="operand">1</e>
+        <e type="function" preserve="true" args="5">sys</e>
+      </input>
+    </plot>
+  </region>
+  <region id="9" left="279" top="1377" width="190" height="1808" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Mh</e>
+        <e type="function" preserve="true" args="1">transpose</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">5.1314</e>
+        <e type="operand">30</e>
+        <e type="operand">20.5036</e>
+        <e type="operand">60</e>
+        <e type="operand">46.0501</e>
+        <e type="operand">90</e>
+        <e type="operand">81.6609</e>
+        <e type="operand">120</e>
+        <e type="operand">127.1826</e>
+        <e type="operand">150</e>
+        <e type="operand">182.4195</e>
+        <e type="operand">180</e>
+        <e type="operand">247.1346</e>
+        <e type="operand">210</e>
+        <e type="operand">321.0506</e>
+        <e type="operand">240</e>
+        <e type="operand">403.8518</e>
+        <e type="operand">270</e>
+        <e type="operand">495.1855</e>
+        <e type="operand">300</e>
+        <e type="operand">594.6642</e>
+        <e type="operand">330</e>
+        <e type="operand">701.867</e>
+        <e type="operand">360</e>
+        <e type="operand">816.3425</e>
+        <e type="operand">390</e>
+        <e type="operand">937.6109</e>
+        <e type="operand">420</e>
+        <e type="operand">1065.1663</e>
+        <e type="operand">450</e>
+        <e type="operand">1198.4797</e>
+        <e type="operand">480</e>
+        <e type="operand">1337.0014</e>
+        <e type="operand">510</e>
+        <e type="operand">1480.1638</e>
+        <e type="operand">540</e>
+        <e type="operand">1627.3846</e>
+        <e type="operand">570</e>
+        <e type="operand">1778.0693</e>
+        <e type="operand">600</e>
+        <e type="operand">1931.6145</e>
+        <e type="operand">630</e>
+        <e type="operand">2087.4105</e>
+        <e type="operand">660</e>
+        <e type="operand">2244.8447</e>
+        <e type="operand">690</e>
+        <e type="operand">2403.3039</e>
+        <e type="operand">720</e>
+        <e type="operand">2562.1779</e>
+        <e type="operand">750</e>
+        <e type="operand">2720.8619</e>
+        <e type="operand">780</e>
+        <e type="operand">2878.7591</e>
+        <e type="operand">810</e>
+        <e type="operand">3035.284</e>
+        <e type="operand">840</e>
+        <e type="operand">3189.8643</e>
+        <e type="operand">870</e>
+        <e type="operand">3341.9438</e>
+        <e type="operand">900</e>
+        <e type="operand">3490.9844</e>
+        <e type="operand">930</e>
+        <e type="operand">3636.4685</e>
+        <e type="operand">960</e>
+        <e type="operand">3777.9011</e>
+        <e type="operand">990</e>
+        <e type="operand">3914.8114</e>
+        <e type="operand">1020</e>
+        <e type="operand">4046.7547</e>
+        <e type="operand">1050</e>
+        <e type="operand">4173.3138</e>
+        <e type="operand">1080</e>
+        <e type="operand">4294.1005</e>
+        <e type="operand">1110</e>
+        <e type="operand">4408.7567</e>
+        <e type="operand">1140</e>
+        <e type="operand">4516.9556</e>
+        <e type="operand">1170</e>
+        <e type="operand">4618.4019</e>
+        <e type="operand">1200</e>
+        <e type="operand">4712.8331</e>
+        <e type="operand">1230</e>
+        <e type="operand">4800.0195</e>
+        <e type="operand">1260</e>
+        <e type="operand">4879.7647</e>
+        <e type="operand">1290</e>
+        <e type="operand">4951.9055</e>
+        <e type="operand">1320</e>
+        <e type="operand">5016.3117</e>
+        <e type="operand">1350</e>
+        <e type="operand">5072.8861</e>
+        <e type="operand">1380</e>
+        <e type="operand">5121.5639</e>
+        <e type="operand">1410</e>
+        <e type="operand">5162.3122</e>
+        <e type="operand">1440</e>
+        <e type="operand">5195.1289</e>
+        <e type="operand">1470</e>
+        <e type="operand">5220.0424</e>
+        <e type="operand">1500</e>
+        <e type="operand">5237.11</e>
+        <e type="operand">1530</e>
+        <e type="operand">5246.4172</e>
+        <e type="operand">1560</e>
+        <e type="operand">5248.0763</e>
+        <e type="operand">1590</e>
+        <e type="operand">5242.2251</e>
+        <e type="operand">1620</e>
+        <e type="operand">5229.0252</e>
+        <e type="operand">1650</e>
+        <e type="operand">5208.6609</e>
+        <e type="operand">1680</e>
+        <e type="operand">5181.3377</e>
+        <e type="operand">1710</e>
+        <e type="operand">5147.2801</e>
+        <e type="operand">1740</e>
+        <e type="operand">5106.7304</e>
+        <e type="operand">1770</e>
+        <e type="operand">5059.9471</e>
+        <e type="operand">1800</e>
+        <e type="operand">5007.2029</e>
+        <e type="operand">1830</e>
+        <e type="operand">4948.783</e>
+        <e type="operand">1860</e>
+        <e type="operand">4884.9836</e>
+        <e type="operand">1890</e>
+        <e type="operand">4816.1102</e>
+        <e type="operand">1920</e>
+        <e type="operand">4742.4756</e>
+        <e type="operand">1950</e>
+        <e type="operand">4664.3987</e>
+        <e type="operand">1980</e>
+        <e type="operand">4582.2024</e>
+        <e type="operand">2010</e>
+        <e type="operand">4496.2125</e>
+        <e type="operand">2040</e>
+        <e type="operand">4406.756</e>
+        <e type="operand">2070</e>
+        <e type="operand">4314.1594</e>
+        <e type="operand">2100</e>
+        <e type="operand">4218.7478</e>
+        <e type="operand">2130</e>
+        <e type="operand">4120.8432</e>
+        <e type="operand">2160</e>
+        <e type="operand">4020.7634</e>
+        <e type="operand">2190</e>
+        <e type="operand">3918.8208</e>
+        <e type="operand">2220</e>
+        <e type="operand">3815.3215</e>
+        <e type="operand">2250</e>
+        <e type="operand">3710.5639</e>
+        <e type="operand">2280</e>
+        <e type="operand">3604.8381</e>
+        <e type="operand">2310</e>
+        <e type="operand">3498.4251</e>
+        <e type="operand">2340</e>
+        <e type="operand">3391.5958</e>
+        <e type="operand">2370</e>
+        <e type="operand">3284.6106</e>
+        <e type="operand">2400</e>
+        <e type="operand">3177.7185</e>
+        <e type="operand">2430</e>
+        <e type="operand">3071.1571</e>
+        <e type="operand">2460</e>
+        <e type="operand">2965.1518</e>
+        <e type="operand">2490</e>
+        <e type="operand">2859.9156</e>
+        <e type="operand">2520</e>
+        <e type="operand">2755.6487</e>
+        <e type="operand">2550</e>
+        <e type="operand">2652.5388</e>
+        <e type="operand">2580</e>
+        <e type="operand">2550.7603</e>
+        <e type="operand">2610</e>
+        <e type="operand">2450.4749</e>
+        <e type="operand">2640</e>
+        <e type="operand">2351.8314</e>
+        <e type="operand">2670</e>
+        <e type="operand">2254.9655</e>
+        <e type="operand">2700</e>
+        <e type="operand">2160.0006</e>
+        <e type="operand">2730</e>
+        <e type="operand">2067.0472</e>
+        <e type="operand">2760</e>
+        <e type="operand">1976.204</e>
+        <e type="operand">2790</e>
+        <e type="operand">1887.5575</e>
+        <e type="operand">2820</e>
+        <e type="operand">1801.1827</e>
+        <e type="operand">2850</e>
+        <e type="operand">1717.1435</e>
+        <e type="operand">2880</e>
+        <e type="operand">1635.4927</e>
+        <e type="operand">2910</e>
+        <e type="operand">1556.273</e>
+        <e type="operand">2940</e>
+        <e type="operand">1479.5171</e>
+        <e type="operand">2970</e>
+        <e type="operand">1405.2482</e>
+        <e type="operand">3000</e>
+        <e type="operand">100</e>
+        <e type="operand">2</e>
+        <e type="function" preserve="true" args="202">mat</e>
+      </result>
+    </math>
+  </region>
+  <region id="10" left="18" top="1386" width="226" height="2195" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Mar</e>
+        <e type="function" preserve="true" args="1">transpose</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">454.9591</e>
+        <e type="operand">30</e>
+        <e type="operand">1781.0193</e>
+        <e type="operand">60</e>
+        <e type="operand">3865.8501</e>
+        <e type="operand">90</e>
+        <e type="operand">6535.4258</e>
+        <e type="operand">120</e>
+        <e type="operand">9572.0039</e>
+        <e type="operand">150</e>
+        <e type="operand">12735.965</e>
+        <e type="operand">180</e>
+        <e type="operand">15788.8129</e>
+        <e type="operand">210</e>
+        <e type="operand">18514.6266</e>
+        <e type="operand">240</e>
+        <e type="operand">20737.6306</e>
+        <e type="operand">270</e>
+        <e type="operand">22334.2201</e>
+        <e type="operand">300</e>
+        <e type="operand">23238.6226</e>
+        <e type="operand">330</e>
+        <e type="operand">23442.2488</e>
+        <e type="operand">360</e>
+        <e type="operand">22987.5557</e>
+        <e type="operand">390</e>
+        <e type="operand">21957.8097</e>
+        <e type="operand">420</e>
+        <e type="operand">20464.4399</e>
+        <e type="operand">450</e>
+        <e type="operand">18633.7067</e>
+        <e type="operand">480</e>
+        <e type="operand">16594.2116</e>
+        <e type="operand">510</e>
+        <e type="operand">14466.4119</e>
+        <e type="operand">540</e>
+        <e type="operand">12354.8535</e>
+        <e type="operand">570</e>
+        <e type="operand">10343.3808</e>
+        <e type="operand">600</e>
+        <e type="operand">8493.1888</e>
+        <e type="operand">630</e>
+        <e type="operand">6843.2872</e>
+        <e type="operand">660</e>
+        <e type="operand">5412.7733</e>
+        <e type="operand">690</e>
+        <e type="operand">4204.2541</e>
+        <e type="operand">720</e>
+        <e type="operand">3207.793</e>
+        <e type="operand">750</e>
+        <e type="operand">2404.8634</e>
+        <e type="operand">780</e>
+        <e type="operand">1771.9284</e>
+        <e type="operand">810</e>
+        <e type="operand">1283.4153</e>
+        <e type="operand">840</e>
+        <e type="operand">913.981</e>
+        <e type="operand">870</e>
+        <e type="operand">640.0756</e>
+        <e type="operand">900</e>
+        <e type="operand">440.8768</e>
+        <e type="operand">930</e>
+        <e type="operand">298.7146</e>
+        <e type="operand">960</e>
+        <e type="operand">199.1153</e>
+        <e type="operand">990</e>
+        <e type="operand">130.5907</e>
+        <e type="operand">1020</e>
+        <e type="operand">84.2803</e>
+        <e type="operand">1050</e>
+        <e type="operand">53.5288</e>
+        <e type="operand">1080</e>
+        <e type="operand">33.4608</e>
+        <e type="operand">1110</e>
+        <e type="operand">20.5877</e>
+        <e type="operand">1140</e>
+        <e type="operand">12.4691</e>
+        <e type="operand">1170</e>
+        <e type="operand">7.4345</e>
+        <e type="operand">1200</e>
+        <e type="operand">4.3639</e>
+        <e type="operand">1230</e>
+        <e type="operand">2.522</e>
+        <e type="operand">1260</e>
+        <e type="operand">1.4351</e>
+        <e type="operand">1290</e>
+        <e type="operand">0.8041</e>
+        <e type="operand">1320</e>
+        <e type="operand">0.4436</e>
+        <e type="operand">1350</e>
+        <e type="operand">0.241</e>
+        <e type="operand">1380</e>
+        <e type="operand">0.129</e>
+        <e type="operand">1410</e>
+        <e type="operand">0.068</e>
+        <e type="operand">1440</e>
+        <e type="operand">0.0353</e>
+        <e type="operand">1470</e>
+        <e type="operand">0.018</e>
+        <e type="operand">1500</e>
+        <e type="operand">0.0091</e>
+        <e type="operand">1530</e>
+        <e type="operand">0.0045</e>
+        <e type="operand">1560</e>
+        <e type="operand">0.0022</e>
+        <e type="operand">1590</e>
+        <e type="operand">0.0011</e>
+        <e type="operand">1620</e>
+        <e type="operand">0.0005</e>
+        <e type="operand">1650</e>
+        <e type="operand">0.0002</e>
+        <e type="operand">1680</e>
+        <e type="operand">0.0001</e>
+        <e type="operand">1710</e>
+        <e type="operand">4.8769</e>
+        <e type="operand">10</e>
+        <e type="operand">5</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">1740</e>
+        <e type="operand">2.1767</e>
+        <e type="operand">10</e>
+        <e type="operand">5</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">1770</e>
+        <e type="operand">9.5714</e>
+        <e type="operand">10</e>
+        <e type="operand">6</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">1800</e>
+        <e type="operand">4.1463</e>
+        <e type="operand">10</e>
+        <e type="operand">6</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">1830</e>
+        <e type="operand">1.7696</e>
+        <e type="operand">10</e>
+        <e type="operand">6</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">1860</e>
+        <e type="operand">7.4408</e>
+        <e type="operand">10</e>
+        <e type="operand">7</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">1890</e>
+        <e type="operand">3.0825</e>
+        <e type="operand">10</e>
+        <e type="operand">7</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">1920</e>
+        <e type="operand">1.2582</e>
+        <e type="operand">10</e>
+        <e type="operand">7</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">1950</e>
+        <e type="operand">5.0596</e>
+        <e type="operand">10</e>
+        <e type="operand">8</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">1980</e>
+        <e type="operand">2.0047</e>
+        <e type="operand">10</e>
+        <e type="operand">8</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2010</e>
+        <e type="operand">7.8263</e>
+        <e type="operand">10</e>
+        <e type="operand">9</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2040</e>
+        <e type="operand">3.0104</e>
+        <e type="operand">10</e>
+        <e type="operand">9</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2070</e>
+        <e type="operand">1.141</e>
+        <e type="operand">10</e>
+        <e type="operand">9</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2100</e>
+        <e type="operand">4.2609</e>
+        <e type="operand">10</e>
+        <e type="operand">10</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2130</e>
+        <e type="operand">1.5679</e>
+        <e type="operand">10</e>
+        <e type="operand">10</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2160</e>
+        <e type="operand">5.6848</e>
+        <e type="operand">10</e>
+        <e type="operand">11</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2190</e>
+        <e type="operand">2.031</e>
+        <e type="operand">10</e>
+        <e type="operand">11</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2220</e>
+        <e type="operand">7.1501</e>
+        <e type="operand">10</e>
+        <e type="operand">12</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2250</e>
+        <e type="operand">2.4803</e>
+        <e type="operand">10</e>
+        <e type="operand">12</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2280</e>
+        <e type="operand">8.4785</e>
+        <e type="operand">10</e>
+        <e type="operand">13</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2310</e>
+        <e type="operand">2.8558</e>
+        <e type="operand">10</e>
+        <e type="operand">13</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2340</e>
+        <e type="operand">9.4791</e>
+        <e type="operand">10</e>
+        <e type="operand">14</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2370</e>
+        <e type="operand">3.1004</e>
+        <e type="operand">10</e>
+        <e type="operand">14</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2400</e>
+        <e type="operand">9.9929</e>
+        <e type="operand">10</e>
+        <e type="operand">15</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2430</e>
+        <e type="operand">3.1739</e>
+        <e type="operand">10</e>
+        <e type="operand">15</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2460</e>
+        <e type="operand">9.9337</e>
+        <e type="operand">10</e>
+        <e type="operand">16</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2490</e>
+        <e type="operand">3.0639</e>
+        <e type="operand">10</e>
+        <e type="operand">16</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2520</e>
+        <e type="operand">9.3124</e>
+        <e type="operand">10</e>
+        <e type="operand">17</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2550</e>
+        <e type="operand">2.7893</e>
+        <e type="operand">10</e>
+        <e type="operand">17</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2580</e>
+        <e type="operand">8.233</e>
+        <e type="operand">10</e>
+        <e type="operand">18</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2610</e>
+        <e type="operand">2.3948</e>
+        <e type="operand">10</e>
+        <e type="operand">18</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2640</e>
+        <e type="operand">6.8648</e>
+        <e type="operand">10</e>
+        <e type="operand">19</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2670</e>
+        <e type="operand">1.9393</e>
+        <e type="operand">10</e>
+        <e type="operand">19</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2700</e>
+        <e type="operand">5.3987</e>
+        <e type="operand">10</e>
+        <e type="operand">20</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2730</e>
+        <e type="operand">1.4812</e>
+        <e type="operand">10</e>
+        <e type="operand">20</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2760</e>
+        <e type="operand">4.0046</e>
+        <e type="operand">10</e>
+        <e type="operand">21</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2790</e>
+        <e type="operand">1.067</e>
+        <e type="operand">10</e>
+        <e type="operand">21</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2820</e>
+        <e type="operand">2.802</e>
+        <e type="operand">10</e>
+        <e type="operand">22</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2850</e>
+        <e type="operand">7.2511</e>
+        <e type="operand">10</e>
+        <e type="operand">23</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2880</e>
+        <e type="operand">1.8493</e>
+        <e type="operand">10</e>
+        <e type="operand">23</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2910</e>
+        <e type="operand">4.6481</e>
+        <e type="operand">10</e>
+        <e type="operand">24</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2940</e>
+        <e type="operand">1.1514</e>
+        <e type="operand">10</e>
+        <e type="operand">24</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2970</e>
+        <e type="operand">2.8107</e>
+        <e type="operand">10</e>
+        <e type="operand">25</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">3000</e>
+        <e type="operand">100</e>
+        <e type="operand">2</e>
+        <e type="function" preserve="true" args="202">mat</e>
+      </result>
+    </math>
+  </region>
+  <region id="11" left="531" top="1386" width="226" height="2105" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Mco</e>
+        <e type="function" preserve="true" args="1">transpose</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">267.5461</e>
+        <e type="operand">30</e>
+        <e type="operand">1054.1335</e>
+        <e type="operand">60</e>
+        <e type="operand">2312.8083</e>
+        <e type="operand">90</e>
+        <e type="operand">3969.2022</e>
+        <e type="operand">120</e>
+        <e type="operand">5926.9869</e>
+        <e type="operand">150</e>
+        <e type="operand">8074.8001</e>
+        <e type="operand">180</e>
+        <e type="operand">10294.0267</e>
+        <e type="operand">210</e>
+        <e type="operand">12466.7633</e>
+        <e type="operand">240</e>
+        <e type="operand">14483.3123</e>
+        <e type="operand">270</e>
+        <e type="operand">16248.6251</e>
+        <e type="operand">300</e>
+        <e type="operand">17687.2508</e>
+        <e type="operand">330</e>
+        <e type="operand">18746.5091</e>
+        <e type="operand">360</e>
+        <e type="operand">19397.7864</e>
+        <e type="operand">390</e>
+        <e type="operand">19636.0305</e>
+        <e type="operand">420</e>
+        <e type="operand">19477.6657</e>
+        <e type="operand">450</e>
+        <e type="operand">18957.2668</e>
+        <e type="operand">480</e>
+        <e type="operand">18123.3956</e>
+        <e type="operand">510</e>
+        <e type="operand">17034.0263</e>
+        <e type="operand">540</e>
+        <e type="operand">15751.9631</e>
+        <e type="operand">570</e>
+        <e type="operand">14340.5979</e>
+        <e type="operand">600</e>
+        <e type="operand">12860.2747</e>
+        <e type="operand">630</e>
+        <e type="operand">11365.4337</e>
+        <e type="operand">660</e>
+        <e type="operand">9902.6156</e>
+        <e type="operand">690</e>
+        <e type="operand">8509.3215</e>
+        <e type="operand">720</e>
+        <e type="operand">7213.6534</e>
+        <e type="operand">750</e>
+        <e type="operand">6034.6121</e>
+        <e type="operand">780</e>
+        <e type="operand">4982.9004</e>
+        <e type="operand">810</e>
+        <e type="operand">4062.0696</e>
+        <e type="operand">840</e>
+        <e type="operand">3269.8552</e>
+        <e type="operand">870</e>
+        <e type="operand">2599.5661</e>
+        <e type="operand">900</e>
+        <e type="operand">2041.4191</e>
+        <e type="operand">930</e>
+        <e type="operand">1583.7396</e>
+        <e type="operand">960</e>
+        <e type="operand">1213.9795</e>
+        <e type="operand">990</e>
+        <e type="operand">919.5292</e>
+        <e type="operand">1020</e>
+        <e type="operand">688.3236</e>
+        <e type="operand">1050</e>
+        <e type="operand">509.2547</e>
+        <e type="operand">1080</e>
+        <e type="operand">372.4187</e>
+        <e type="operand">1110</e>
+        <e type="operand">269.2266</e>
+        <e type="operand">1140</e>
+        <e type="operand">192.4098</e>
+        <e type="operand">1170</e>
+        <e type="operand">135.9533</e>
+        <e type="operand">1200</e>
+        <e type="operand">94.9804</e>
+        <e type="operand">1230</e>
+        <e type="operand">65.6124</e>
+        <e type="operand">1260</e>
+        <e type="operand">44.8198</e>
+        <e type="operand">1290</e>
+        <e type="operand">30.2767</e>
+        <e type="operand">1320</e>
+        <e type="operand">20.2266</e>
+        <e type="operand">1350</e>
+        <e type="operand">13.3639</e>
+        <e type="operand">1380</e>
+        <e type="operand">8.7329</e>
+        <e type="operand">1410</e>
+        <e type="operand">5.6443</e>
+        <e type="operand">1440</e>
+        <e type="operand">3.6084</e>
+        <e type="operand">1470</e>
+        <e type="operand">2.2818</e>
+        <e type="operand">1500</e>
+        <e type="operand">1.4273</e>
+        <e type="operand">1530</e>
+        <e type="operand">0.8832</e>
+        <e type="operand">1560</e>
+        <e type="operand">0.5406</e>
+        <e type="operand">1590</e>
+        <e type="operand">0.3274</e>
+        <e type="operand">1620</e>
+        <e type="operand">0.1961</e>
+        <e type="operand">1650</e>
+        <e type="operand">0.1162</e>
+        <e type="operand">1680</e>
+        <e type="operand">0.0682</e>
+        <e type="operand">1710</e>
+        <e type="operand">0.0395</e>
+        <e type="operand">1740</e>
+        <e type="operand">0.0227</e>
+        <e type="operand">1770</e>
+        <e type="operand">0.0129</e>
+        <e type="operand">1800</e>
+        <e type="operand">0.0072</e>
+        <e type="operand">1830</e>
+        <e type="operand">0.004</e>
+        <e type="operand">1860</e>
+        <e type="operand">0.0022</e>
+        <e type="operand">1890</e>
+        <e type="operand">0.0012</e>
+        <e type="operand">1920</e>
+        <e type="operand">0.0006</e>
+        <e type="operand">1950</e>
+        <e type="operand">0.0003</e>
+        <e type="operand">1980</e>
+        <e type="operand">0.0002</e>
+        <e type="operand">2010</e>
+        <e type="operand">9.5212</e>
+        <e type="operand">10</e>
+        <e type="operand">5</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2040</e>
+        <e type="operand">4.9165</e>
+        <e type="operand">10</e>
+        <e type="operand">5</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2070</e>
+        <e type="operand">2.5123</e>
+        <e type="operand">10</e>
+        <e type="operand">5</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2100</e>
+        <e type="operand">1.2703</e>
+        <e type="operand">10</e>
+        <e type="operand">5</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2130</e>
+        <e type="operand">6.3566</e>
+        <e type="operand">10</e>
+        <e type="operand">6</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2160</e>
+        <e type="operand">3.1477</e>
+        <e type="operand">10</e>
+        <e type="operand">6</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2190</e>
+        <e type="operand">1.5425</e>
+        <e type="operand">10</e>
+        <e type="operand">6</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2220</e>
+        <e type="operand">7.4801</e>
+        <e type="operand">10</e>
+        <e type="operand">7</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2250</e>
+        <e type="operand">3.5898</e>
+        <e type="operand">10</e>
+        <e type="operand">7</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2280</e>
+        <e type="operand">1.7049</e>
+        <e type="operand">10</e>
+        <e type="operand">7</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2310</e>
+        <e type="operand">8.0135</e>
+        <e type="operand">10</e>
+        <e type="operand">8</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2340</e>
+        <e type="operand">3.7275</e>
+        <e type="operand">10</e>
+        <e type="operand">8</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2370</e>
+        <e type="operand">1.7159</e>
+        <e type="operand">10</e>
+        <e type="operand">8</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2400</e>
+        <e type="operand">7.8176</e>
+        <e type="operand">10</e>
+        <e type="operand">9</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2430</e>
+        <e type="operand">3.5248</e>
+        <e type="operand">10</e>
+        <e type="operand">9</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2460</e>
+        <e type="operand">1.5729</e>
+        <e type="operand">10</e>
+        <e type="operand">9</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2490</e>
+        <e type="operand">6.9462</e>
+        <e type="operand">10</e>
+        <e type="operand">10</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2520</e>
+        <e type="operand">3.036</e>
+        <e type="operand">10</e>
+        <e type="operand">10</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2550</e>
+        <e type="operand">1.3133</e>
+        <e type="operand">10</e>
+        <e type="operand">10</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2580</e>
+        <e type="operand">5.6226</e>
+        <e type="operand">10</e>
+        <e type="operand">11</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2610</e>
+        <e type="operand">2.3824</e>
+        <e type="operand">10</e>
+        <e type="operand">11</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2640</e>
+        <e type="operand">9.9911</e>
+        <e type="operand">10</e>
+        <e type="operand">12</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2670</e>
+        <e type="operand">4.1469</e>
+        <e type="operand">10</e>
+        <e type="operand">12</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2700</e>
+        <e type="operand">1.7035</e>
+        <e type="operand">10</e>
+        <e type="operand">12</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2730</e>
+        <e type="operand">6.9261</e>
+        <e type="operand">10</e>
+        <e type="operand">13</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2760</e>
+        <e type="operand">2.7871</e>
+        <e type="operand">10</e>
+        <e type="operand">13</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2790</e>
+        <e type="operand">1.1101</e>
+        <e type="operand">10</e>
+        <e type="operand">13</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2820</e>
+        <e type="operand">4.3758</e>
+        <e type="operand">10</e>
+        <e type="operand">14</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2850</e>
+        <e type="operand">1.7073</e>
+        <e type="operand">10</e>
+        <e type="operand">14</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2880</e>
+        <e type="operand">6.593</e>
+        <e type="operand">10</e>
+        <e type="operand">15</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2910</e>
+        <e type="operand">2.5199</e>
+        <e type="operand">10</e>
+        <e type="operand">15</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2940</e>
+        <e type="operand">9.533</e>
+        <e type="operand">10</e>
+        <e type="operand">16</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">2970</e>
+        <e type="operand">3.5695</e>
+        <e type="operand">10</e>
+        <e type="operand">16</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">3000</e>
+        <e type="operand">100</e>
+        <e type="operand">2</e>
+        <e type="function" preserve="true" args="202">mat</e>
+      </result>
+    </math>
+  </region>
+  <region id="12" left="63" top="3888" width="309" height="55" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math decimalPlaces="5">
+      <input>
+        <e type="operand">4</e>
+        <e type="operand">π</e>
+        <e type="function" preserve="true" args="1">sqrt</e>
+        <e type="operator" args="2">/</e>
+        <e type="operand">e</e>
+        <e type="operand">1.203</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="bracket">(</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">1.203</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">0.003</e>
+        <e type="operator" args="2">*</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">0.0023</e>
+      </result>
+    </math>
+  </region>
+</regions>

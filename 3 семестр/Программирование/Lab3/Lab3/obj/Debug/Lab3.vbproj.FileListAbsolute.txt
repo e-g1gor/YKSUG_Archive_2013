@@ -1,0 +1,10 @@
+D:\work\Клёнин Егор\Lab3\Lab3\bin\Debug\Lab3.exe
+D:\work\Клёнин Егор\Lab3\Lab3\bin\Debug\Lab3.pdb
+D:\work\Клёнин Егор\Lab3\Lab3\bin\Debug\Lab3.xml
+D:\work\Клёнин Егор\Lab3\Lab3\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Клёнин Егор\Lab3\Lab3\obj\Debug\Lab3.Form1.resources
+D:\work\Клёнин Егор\Lab3\Lab3\obj\Debug\Lab3.Resources.resources
+D:\work\Клёнин Егор\Lab3\Lab3\obj\Debug\Lab3.vbproj.GenerateResource.Cache
+D:\work\Клёнин Егор\Lab3\Lab3\obj\Debug\Lab3.exe
+D:\work\Клёнин Егор\Lab3\Lab3\obj\Debug\Lab3.xml
+D:\work\Клёнин Егор\Lab3\Lab3\obj\Debug\Lab3.pdb

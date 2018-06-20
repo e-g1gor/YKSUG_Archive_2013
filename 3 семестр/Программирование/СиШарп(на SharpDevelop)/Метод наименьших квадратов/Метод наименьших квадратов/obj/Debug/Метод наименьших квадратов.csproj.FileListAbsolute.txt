@@ -1,0 +1,18 @@
+D:\_Output\SharpDevelop\Метод наименьших квадратов\Метод наименьших квадратов\obj\Debug\Метод наименьших квадратов.csprojResolveAssemblyReference.cache
+D:\_Output\SharpDevelop\Метод наименьших квадратов\Метод наименьших квадратов\obj\Debug\Метод_наименьших_квадратов.MainForm.resources
+D:\_Output\SharpDevelop\Метод наименьших квадратов\Метод наименьших квадратов\obj\Debug\Метод наименьших квадратов.csproj.GenerateResource.Cache
+D:\_Output\SharpDevelop\Метод наименьших квадратов\Метод наименьших квадратов\bin\Debug\Метод наименьших квадратов.exe
+D:\_Output\SharpDevelop\Метод наименьших квадратов\Метод наименьших квадратов\bin\Debug\Метод наименьших квадратов.pdb
+D:\_Output\SharpDevelop\Метод наименьших квадратов\Метод наименьших квадратов\obj\Debug\Метод наименьших квадратов.exe
+D:\_Output\SharpDevelop\Метод наименьших квадратов\Метод наименьших квадратов\obj\Debug\Метод наименьших квадратов.pdb
+D:\_Output\SharpDevelop\Метод наименьших квадратов\Метод наименьших квадратов\obj\Debug\Метод_наименьших_квадратов.Gra.resources
+D:\_Output\SharpDevelop\Метод наименьших квадратов\Метод наименьших квадратов\obj\Debug\Метод_наименьших_квадратов.Polinom.resources
+D:\_Output\SharpDevelop\Метод наименьших квадратов — итог\Метод наименьших квадратов\bin\Debug\Метод наименьших квадратов.exe
+D:\_Output\SharpDevelop\Метод наименьших квадратов — итог\Метод наименьших квадратов\bin\Debug\Метод наименьших квадратов.pdb
+D:\_Output\SharpDevelop\Метод наименьших квадратов — итог\Метод наименьших квадратов\obj\Debug\Метод наименьших квадратов.csprojResolveAssemblyReference.cache
+D:\_Output\SharpDevelop\Метод наименьших квадратов — итог\Метод наименьших квадратов\obj\Debug\Метод_наименьших_квадратов.Gra.resources
+D:\_Output\SharpDevelop\Метод наименьших квадратов — итог\Метод наименьших квадратов\obj\Debug\Метод_наименьших_квадратов.MainForm.resources
+D:\_Output\SharpDevelop\Метод наименьших квадратов — итог\Метод наименьших квадратов\obj\Debug\Метод_наименьших_квадратов.Polinom.resources
+D:\_Output\SharpDevelop\Метод наименьших квадратов — итог\Метод наименьших квадратов\obj\Debug\Метод наименьших квадратов.csproj.GenerateResource.Cache
+D:\_Output\SharpDevelop\Метод наименьших квадратов — итог\Метод наименьших квадратов\obj\Debug\Метод наименьших квадратов.exe
+D:\_Output\SharpDevelop\Метод наименьших квадратов — итог\Метод наименьших квадратов\obj\Debug\Метод наименьших квадратов.pdb

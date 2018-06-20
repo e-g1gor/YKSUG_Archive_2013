@@ -1,0 +1,195 @@
+BODY {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+P {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+DL {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+DD {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+DT {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+UL {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+OL {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+LI {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+TH {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+TD {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+BLOCKQUOTE {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+FORM {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+INPUT {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+SELECT {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+SPAN {
+	COLOR: black; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+H1 {
+	FONT-FAMILY: Verdana, Arial, sans-serif
+}
+H2 {
+	FONT-FAMILY: Verdana, Arial, sans-serif
+}
+H3 {
+	FONT-FAMILY: Verdana, Arial, sans-serif
+}
+H4 {
+	FONT-FAMILY: Verdana, Arial, sans-serif
+}
+H5 {
+	FONT-FAMILY: Verdana, Arial, sans-serif
+}
+H6 {
+	FONT-FAMILY: Verdana, Arial, sans-serif
+}
+B {
+	FONT-FAMILY: Verdana, Arial, sans-serif
+}
+STRONG {
+	FONT-FAMILY: Verdana, Arial, sans-serif
+}
+I {
+	FONT-FAMILY: Verdana, Arial, sans-serif
+}
+EM {
+	FONT-FAMILY: Verdana, Arial, sans-serif
+}
+A {
+	FONT-FAMILY: Verdana, Arial, sans-serif
+}
+H1 {
+	FONT-SIZE: 12pt
+}
+H2 {
+	FONT-SIZE: 11pt
+}
+H3 {
+	FONT-SIZE: 10pt
+}
+H4 {
+	FONT-SIZE: 9pt
+}
+H5 {
+	FONT-SIZE: 8pt
+}
+H6 {
+	FONT-SIZE: 7pt
+}
+H1.headerI {
+	FONT-WEIGHT: bold; FONT-SIZE: 15pt; COLOR: gray; TEXT-ALIGN: center
+}
+H2.headerII {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: gray
+}
+.red {
+	COLOR: gray
+}
+.small {
+	FONT-SIZE: 8pt
+}
+.block {
+	MARGIN-LEFT: 40px; MARGIN-RIGHT: 40px
+}
+.abstract {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt
+}
+.abstract P {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt
+}
+.subscript {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt
+}
+.comment {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt
+}
+DIV.abstract {
+	MARGIN-TOP: 20px; MARGIN-BOTTOM: 20px
+}
+DIV.subscript {
+	MARGIN-TOP: 20px; MARGIN-BOTTOM: 20px
+}
+.abstract P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+.subscript {
+	TEXT-ALIGN: right
+}
+.comment {
+	COLOR: #666666
+}
+.button {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.5pt; COLOR: white; TEXT-DECORATION: none
+}
+.moderate {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.5pt; COLOR: white; TEXT-DECORATION: none
+}
+.button {
+	BACKGROUND-COLOR: gray
+}
+.moderate {
+	BACKGROUND-COLOR: #5a5a5a
+}
+TD.moderate {
+	TEXT-ALIGN: center
+}
+TD.button {
+	TEXT-ALIGN: center
+}
+A {
+	COLOR: #5a5a5a
+}
+A:visited {
+	COLOR: black
+}
+.button A {
+	COLOR: white; TEXT-DECORATION: none
+}
+.moderate A {
+	COLOR: white; TEXT-DECORATION: none
+}
+.button A:visited {
+	COLOR: silver
+}
+.moderate A:visited {
+	COLOR: silver
+}
+.button A {
+	BACKGROUND-COLOR: gray
+}
+.moderate A {
+	BACKGROUND-COLOR: #5a5a5a
+}
+TH.special {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; BACKGROUND-COLOR: gray
+}
+TD.special {
+	FONT-SIZE: 10pt; COLOR: black; BACKGROUND-COLOR: #e1e1e1
+}
+.hNew {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: gray; BACKGROUND-COLOR: silver; TEXT-ALIGN: left
+}
+.hNews {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; BACKGROUND-COLOR: gray; TEXT-ALIGN: right
+}
+.hNewsl {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; TEXT-INDENT: 1.5ex; BACKGROUND-COLOR: gray; TEXT-ALIGN: left
+}

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="0.97.5581.25383"?>
+<regions>
+  <settings>
+    <identity>
+      <id>969afd1a-5c8a-49eb-b70c-742bfe00b2a3</id>
+      <revision>3</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="true" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="1" orientation="Portrait" width="850" height="1100" />
+      <margins left="39" right="39" top="39" bottom="39" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependences>
+      <assembly name="SMath Studio Desktop" version="0.97.5581.25383" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="Statistical Tools" version="1.0.4902.38391" guid="76f6e9f5-ac86-4ffb-9e4d-284c8daecaf9" />
+      <assembly name="Math Region" version="0.97.5581.25383" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="Special Functions" version="1.11.5581.23401" guid="2814e667-4e12-48b1-8d51-194e480eabc5" />
+      <assembly name="Plot Region" version="1.9.5581.23389" guid="c451c2b5-798b-4f08-b9ec-b90963d1ddaa" />
+    </dependences>
+  </settings>
+  <region id="0" left="18" top="9" width="239" height="34" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">x</e>
+        <e type="operand">λ</e>
+        <e type="function" args="2">f</e>
+        <e type="operand">λ</e>
+        <e type="operand">e</e>
+        <e type="operand">λ</e>
+        <e type="operand">x</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">x</e>
+        <e type="function" preserve="true" args="1">Heaviside</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="1" left="18" top="63" width="43" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">λ</e>
+        <e type="operand">5</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="2" left="18" top="90" width="168" height="66" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">a</e>
+        <e type="operand">b</e>
+        <e type="function" args="2">P</e>
+        <e type="operand">x</e>
+        <e type="operand">λ</e>
+        <e type="function" args="2">f</e>
+        <e type="operand">x</e>
+        <e type="operand">a</e>
+        <e type="operand">b</e>
+        <e type="function" preserve="true" args="4">int</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="3" left="18" top="162" width="155" height="26" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">0.4</e>
+        <e type="operand">1</e>
+        <e type="function" args="2">P</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">0.1286</e>
+      </result>
+    </math>
+  </region>
+  <region id="4" left="27" top="216" width="344" height="294" color="#000000" bgColor="#ffffff" fontSize="10">
+    <plot type="2d" render="lines" scale_x="5.50431814035732" scale_y="49.2873293137438" scale_z="271.293140831405" rotate_x="0" rotate_y="0" rotate_z="0" transpose_x="-79" transpose_y="-95" transpose_z="0">
+      <input>
+        <e type="operand">x</e>
+        <e type="operand">λ</e>
+        <e type="function" args="2">f</e>
+        <e type="operand">x</e>
+        <e type="function" preserve="true" args="1">Heaviside</e>
+        <e type="operand">2</e>
+        <e type="operand">1</e>
+        <e type="function" preserve="true" args="4">sys</e>
+      </input>
+    </plot>
+  </region>
+</regions>

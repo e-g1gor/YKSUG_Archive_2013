@@ -1,0 +1,14 @@
+D:\_Output\SharpDevelop\Определитель\Определитель\bin\Debug\Определитель.exe
+D:\_Output\SharpDevelop\Определитель\Определитель\bin\Debug\Определитель.pdb
+D:\_Output\SharpDevelop\Определитель\Определитель\obj\Debug\Определитель.csprojResolveAssemblyReference.cache
+D:\_Output\SharpDevelop\Определитель\Определитель\obj\Debug\Определитель.MainForm.resources
+D:\_Output\SharpDevelop\Определитель\Определитель\obj\Debug\Определитель.csproj.GenerateResource.Cache
+D:\_Output\SharpDevelop\Определитель\Определитель\obj\Debug\Определитель.exe
+D:\_Output\SharpDevelop\Определитель\Определитель\obj\Debug\Определитель.pdb
+D:\_Output\SharpDevelop\Определитель — метод фаддеева\Определитель\bin\Debug\Определитель.exe
+D:\_Output\SharpDevelop\Определитель — метод фаддеева\Определитель\bin\Debug\Определитель.pdb
+D:\_Output\SharpDevelop\Определитель — метод фаддеева\Определитель\obj\Debug\Определитель.csprojResolveAssemblyReference.cache
+D:\_Output\SharpDevelop\Определитель — метод фаддеева\Определитель\obj\Debug\Определитель.MainForm.resources
+D:\_Output\SharpDevelop\Определитель — метод фаддеева\Определитель\obj\Debug\Определитель.csproj.GenerateResource.Cache
+D:\_Output\SharpDevelop\Определитель — метод фаддеева\Определитель\obj\Debug\Определитель.exe
+D:\_Output\SharpDevelop\Определитель — метод фаддеева\Определитель\obj\Debug\Определитель.pdb

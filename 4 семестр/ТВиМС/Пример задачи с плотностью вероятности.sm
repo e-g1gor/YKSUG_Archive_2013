@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="0.97.5581.25383"?>
+<regions>
+  <settings>
+    <identity>
+      <id>29029428-4f0c-4c3b-aa9d-ae3522158ce0</id>
+      <revision>10</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="true" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="1" orientation="Portrait" width="850" height="1100" />
+      <margins left="39" right="39" top="39" bottom="39" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependences>
+      <assembly name="SMath Studio Desktop" version="0.97.5581.25383" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="Math Region" version="0.97.5581.25383" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="Special Functions" version="1.11.5581.23401" guid="2814e667-4e12-48b1-8d51-194e480eabc5" />
+      <assembly name="Statistical Tools" version="1.0.4902.38391" guid="76f6e9f5-ac86-4ffb-9e4d-284c8daecaf9" />
+      <assembly name="Plot Region" version="1.9.5581.23389" guid="c451c2b5-798b-4f08-b9ec-b90963d1ddaa" />
+    </dependences>
+  </settings>
+  <region id="0" left="18" top="9" width="103" height="50" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">x</e>
+        <e type="operand">C</e>
+        <e type="function" args="2">p</e>
+        <e type="operand">C</e>
+        <e type="operand">x</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="1" left="18" top="63" width="186" height="77" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">C</e>
+        <e type="operand">x</e>
+        <e type="operand">1</e>
+        <e type="function" args="2">p</e>
+        <e type="operand">x</e>
+        <e type="operand">1</e>
+        <e type="operand">2</e>
+        <e type="function" preserve="true" args="4">int</e>
+        <e type="bracket">(</e>
+        <e type="operand">1</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">2</e>
+      </result>
+    </math>
+  </region>
+  <region id="2" left="18" top="144" width="221" height="66" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">M</e>
+        <e type="operand">x</e>
+        <e type="operand">x</e>
+        <e type="operand">C</e>
+        <e type="function" args="2">p</e>
+        <e type="bracket">(</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">x</e>
+        <e type="operand">1</e>
+        <e type="operand">2</e>
+        <e type="function" preserve="true" args="4">int</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">1.3863</e>
+      </result>
+    </math>
+  </region>
+  <region id="3" left="18" top="225" width="266" height="66" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">D</e>
+        <e type="operand">x</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operand">x</e>
+        <e type="operand">C</e>
+        <e type="function" args="2">p</e>
+        <e type="bracket">(</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">x</e>
+        <e type="operand">1</e>
+        <e type="operand">2</e>
+        <e type="function" preserve="true" args="4">int</e>
+        <e type="operand">M</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">-</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">0.0782</e>
+      </result>
+    </math>
+  </region>
+  <region id="4" left="18" top="306" width="131" height="26" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">σ</e>
+        <e type="operand">D</e>
+        <e type="function" preserve="true" args="1">sqrt</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">0.2796</e>
+      </result>
+    </math>
+  </region>
+  <region id="5" left="18" top="351" width="343" height="286" color="#000000" bgColor="#ffffff" fontSize="10">
+    <plot type="2d" render="lines" scale_x="14.4717446744845" scale_y="17.5108110561263" scale_z="190.648251890201" rotate_x="0" rotate_y="0" rotate_z="0" transpose_x="-193" transpose_y="-113" transpose_z="0">
+      <input>
+        <e type="operand">x</e>
+        <e type="operand">C</e>
+        <e type="function" args="2">p</e>
+        <e type="operand">x</e>
+        <e type="operand">1</e>
+        <e type="operator" args="2">-</e>
+        <e type="function" preserve="true" args="1">Heaviside</e>
+        <e type="operand">2</e>
+        <e type="operand">x</e>
+        <e type="operator" args="2">-</e>
+        <e type="function" preserve="true" args="1">Heaviside</e>
+        <e type="operator" args="2">*</e>
+        <e type="bracket">(</e>
+        <e type="operator" args="2">*</e>
+      </input>
+    </plot>
+  </region>
+</regions>

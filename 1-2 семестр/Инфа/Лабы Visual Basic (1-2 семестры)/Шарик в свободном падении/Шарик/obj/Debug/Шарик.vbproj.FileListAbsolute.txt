@@ -1,0 +1,10 @@
+D:\_Output\VisualBasOutput\Шарик\Шарик\bin\Debug\Шарик.exe
+D:\_Output\VisualBasOutput\Шарик\Шарик\bin\Debug\Шарик.pdb
+D:\_Output\VisualBasOutput\Шарик\Шарик\bin\Debug\Шарик.xml
+D:\_Output\VisualBasOutput\Шарик\Шарик\obj\Debug\ResolveAssemblyReference.cache
+D:\_Output\VisualBasOutput\Шарик\Шарик\obj\Debug\WindowsApplication1.Form1.resources
+D:\_Output\VisualBasOutput\Шарик\Шарик\obj\Debug\WindowsApplication1.Resources.resources
+D:\_Output\VisualBasOutput\Шарик\Шарик\obj\Debug\Шарик.vbproj.GenerateResource.Cache
+D:\_Output\VisualBasOutput\Шарик\Шарик\obj\Debug\Шарик.exe
+D:\_Output\VisualBasOutput\Шарик\Шарик\obj\Debug\Шарик.xml
+D:\_Output\VisualBasOutput\Шарик\Шарик\obj\Debug\Шарик.pdb

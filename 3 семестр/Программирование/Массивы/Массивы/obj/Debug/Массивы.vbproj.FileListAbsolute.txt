@@ -1,0 +1,20 @@
+G:\Массивы\Массивы\obj\Debug\ResolveAssemblyReference.cache
+G:\Массивы\Массивы\obj\Debug\Массивы.Form1.resources
+G:\Массивы\Массивы\obj\Debug\Массивы.Resources.resources
+G:\Массивы\Массивы\obj\Debug\Массивы.vbproj.GenerateResource.Cache
+G:\Массивы\Массивы\bin\Debug\Массивы.exe
+G:\Массивы\Массивы\bin\Debug\Массивы.pdb
+G:\Массивы\Массивы\bin\Debug\Массивы.xml
+G:\Массивы\Массивы\obj\Debug\Массивы.exe
+G:\Массивы\Массивы\obj\Debug\Массивы.xml
+G:\Массивы\Массивы\obj\Debug\Массивы.pdb
+D:\work\Клёнин Егор\Массивы\Массивы\obj\Debug\Массивы.exe
+D:\work\Клёнин Егор\Массивы\Массивы\obj\Debug\Массивы.xml
+D:\work\Клёнин Егор\Массивы\Массивы\obj\Debug\Массивы.pdb
+D:\work\Клёнин Егор\Массивы\Массивы\bin\Debug\Массивы.exe
+D:\work\Клёнин Егор\Массивы\Массивы\bin\Debug\Массивы.pdb
+D:\work\Клёнин Егор\Массивы\Массивы\bin\Debug\Массивы.xml
+D:\work\Клёнин Егор\Массивы\Массивы\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Клёнин Егор\Массивы\Массивы\obj\Debug\Массивы.Form1.resources
+D:\work\Клёнин Егор\Массивы\Массивы\obj\Debug\Массивы.Resources.resources
+D:\work\Клёнин Егор\Массивы\Массивы\obj\Debug\Массивы.vbproj.GenerateResource.Cache

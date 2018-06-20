@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phones>
+  <phone>
+    <type>flat</type>
+    <service>landline</service>
+    <number>123 456</number>
+  </phone>
+  <phone>
+    <type>flat</type>
+    <service>mobile</service>
+    <number>123 456 6662</number>
+  </phone>
+  <phone>
+    <type>flat</type>
+    <service>mobile</service>
+    <number>123 666 1234</number>
+  </phone>
+  <phone>
+    <type>office</type>
+    <service>landline</service>
+    <number>123 456</number>
+  </phone>
+  <phone>
+    <type>office</type>
+    <service>landline</service>
+    <number>123 666</number>
+  </phone>
+  <phone>
+    <type>office</type>
+    <service>mobile</service>
+    <number>123 456 6662</number>
+  </phone>
+</phones>

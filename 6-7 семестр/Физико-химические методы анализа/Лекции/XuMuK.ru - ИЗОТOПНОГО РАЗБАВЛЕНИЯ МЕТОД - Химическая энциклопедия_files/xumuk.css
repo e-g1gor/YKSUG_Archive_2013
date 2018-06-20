@@ -1,0 +1,466 @@
+body
+{
+	background: #ffffff url('image/bgr.gif');
+	background-attachment: relative;
+	background-repeat: repeat-y;
+	background-position: left top;
+	margin: 0px;
+	padding: 0em;
+	color : 000000;
+	text-decoration : none;
+	font-family : Arial;
+	font-size : 14px;
+	font-weight : normal;
+	overflow-y: scroll;
+  text-align:justify;
+}
+
+h1 {
+font-size: 20px;
+margin-top: 12pt;
+margin-bottom: 9pt;
+line-height: 16pt;
+font-weight : bold;
+color: #C00000;
+}
+
+h2 {
+font-size: 18px;
+margin-top: 12pt;
+margin-bottom: 9pt;
+line-height: 12pt;
+font-weight : bold;
+}
+
+h3 {
+font-size: 16px;
+margin-top: 12pt;
+margin-bottom: 9pt;
+line-height: 12pt;
+font-weight : bold;
+}
+
+div {
+font-size: 14px;
+margin-top: 7pt;
+margin-bottom: 7pt;
+line-height: 11pt;
+}
+
+p,ol,ul {
+font-size: 14px;
+margin-top: 7pt;
+margin-bottom: 7pt;
+line-height: 16pt;
+text-align:justify;
+}
+
+
+li {
+font-size: 14px;
+margin-left: 9pt;
+margin-top: 1pt;
+margin-bottom: 1pt;
+line-height: 11pt;
+text-align:justify;
+}
+
+
+#form th{width:100%;}
+#form th input{width:100%;}
+
+#formx th{width:100%;}
+#formx th input{width:100%;border: 1px solid #9a9a9a;}
+
+form
+{
+margin: 0;
+padding: 0;
+}
+
+a
+{
+text-decoration: none;
+color: #0046b9;
+}
+
+a:hover
+{
+	color: #D00000;
+	text-decoration: underline;
+}
+
+table
+{
+	border-collapse: collapse;
+	border-width: 0em;
+}
+
+td
+{
+	margin: 0em;
+}
+
+img
+{
+	border-width: 0em;
+}
+
+.menwe
+{
+font-size : 13px;
+line-height : 14px;
+}
+
+.tex
+{
+font-size : 16px;
+color: #000000;
+}
+
+.mini
+{
+font-size : 11px;
+color: #5c594d;
+line-height : 11px;
+}
+
+.minitex
+{
+font-size : 13px;
+color: #000000;
+}
+
+.rek
+{
+margin-left: 41px;
+}
+
+.small
+{
+font-size : 12px;
+color: #000000;
+}
+
+.find
+{
+font-size : 13px;
+color: #000000;
+}
+
+.menu1
+{
+font-size : 15px;
+color: #ffffff;
+font-weight: bold;
+padding-top: 5px;
+white-space: nowrap;
+}
+
+.menu2 {text-decoration: none; font-size: 13px; color: #444954; white-space: nowrap;}
+.menu2:link {text-decoration: none; font-size: 13px; color: #444954; white-space: nowrap;}
+.menu2:hover {text-decoration: underline; font-size: 13px; color: #f71d00; white-space: nowrap;}
+
+.naprimer {font-size: 13px; color: #ffffff;}
+.naprimer:link {font-size: 13px; color: #ffffff;}
+.naprimer:hover {font-size: 13px; color: #ffde00;}
+
+.linki {border: 1px solid #9a9a9a;}
+
+.dasha {color: #ffffff; text-decoration: none; border-bottom: 1px dashed white; cursor: hand;}
+.dasha:link {color: #ffffff; text-decoration: none; border-bottom: 1px dashed white;}
+.dasha:hover {color: #ffde00; text-decoration: none; border-bottom: 1px dashed yellow;}
+
+
+
+#menu ul						/* !МЕНЮ */
+{
+	margin: 0;					/* убираем отступ слева	*/
+	list-style: none;			/* убираем точечки перечисления */
+	padding: 0;
+}
+
+#menu li						/* !ЭЛЕМЕНТЫ МЕНЮ */
+{			
+	float: left;				/* выстраиваем меню в ряд */
+	width: 12px;				/* ширина пунктов меню */
+	cursor: pointer;			/* делаем курсор-лапку */
+	position: relative;
+	background-color: #f0f1e9;
+	border: solid 1px Silver;
+	margin: 0 1px;
+	text-align: center;
+  height: 18px;                    /* фиксируем высоту */
+  padding: 0 0px;                    /* нулевой вертикальный внутренний отступ, 2px горизонтальный */
+}
+
+#menu li ul						/* !МЕНЮ ВТОРОГО ПОРЯДКА */
+{
+	position: absolute;
+	display: none; 
+	top: 17px;
+    left: -1px;
+}
+
+#menu li ul li					/* !ЭЛЕМЕНТЫ МЕНЮ ВТОРОГО ПОРЯДКА */
+{
+    text-align: left;
+	margin: -1px -1px 0 0;
+	width: 150px;
+}
+
+#menu li ul li a				/* !ССЫЛКИ ВЫПАДАЮЩЕГО МЕНЮ */
+{
+	font-variant: small-caps;
+	font-size: 10px;
+	margin-left: 0px;
+	font-weight: bolder;
+	color: Black;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+#menu li ul li a:hover               /* !ССЫЛКИ ВЫПАДАЮЩЕГО МЕНЮ ПРИ НАВЕДЕНИИ МЫШКОЙ*/
+{
+     color: Red;                         /* покрасим текст в красный ;-) */
+}
+
+#menu ul>li { list-style: none;  font-size: 10px; }
+#menu li>ul { top: 19px }
+
+.findx {font-size : 12px; color: #000000; text-decoration: none;}
+.findx:hover {font-size : 12px; color: #000000; text-decoration: mone;}
+
+
+
+.alfavit{
+text-align:right;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+letter-spacing: 0.05em;
+}
+
+
+
+
+
+#mendeleev TABLE {
+	BORDER-COLLAPSE: collapse
+}
+#mendeleev TD {
+	BORDER-RIGHT: #888 1px solid; PADDING-RIGHT: 1pt; BORDER-TOP: #888 1px solid; PADDING-LEFT: 1pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: #888 1px solid; WIDTH: 6em; PADDING-TOP: 1pt; BORDER-BOTTOM: #888 1px solid
+}
+#tooltip {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: black 1px solid; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 12px; Z-INDEX: 99; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: black 1px solid; CURSOR: pointer; PADDING-TOP: 0px; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none; POSITION: absolute; BACKGROUND-COLOR: white
+}
+#tooltip LI A {
+	PADDING-RIGHT: 5pt; DISPLAY: block; PADDING-LEFT: 5pt; PADDING-BOTTOM: 0px; COLOR: black; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+#tooltip LI A:hover {
+	COLOR: white; BACKGROUND-COLOR: blue
+}
+.alkali A {
+	TEXT-DECORATION: none
+}
+.metalloid A {
+	TEXT-DECORATION: none
+}
+.transition A {
+	TEXT-DECORATION: none
+}
+.noid A {
+	TEXT-DECORATION: none
+}
+.alkali A:hover {
+	TEXT-DECORATION: none
+}
+.metalloid A:hover {
+	TEXT-DECORATION: none
+}
+.transition A:hover {
+	TEXT-DECORATION: none
+}
+.noid A:hover {
+	TEXT-DECORATION: none
+}
+.alkali {
+	BACKGROUND-COLOR: #ff7578
+}
+.metalloid {
+	BACKGROUND-COLOR: #ffcc66
+}
+.transition {
+	BACKGROUND-COLOR: #66ccff
+}
+.noid {
+	BACKGROUND-COLOR: #66ff99
+}
+SPAN.code {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+SPAN.atomic {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+SPAN.molar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.code {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; FLOAT: left; FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.code A{
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; FLOAT: left; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#000000;
+}
+.code A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; FLOAT: left; FONT-FAMILY: Arial, Helvetica, sans-serif; color:#FFFFFF;
+}
+.atomic {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: right; FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.molar {
+	CLEAR: both; DISPLAY: block; FONT-SIZE: 9px; VERTICAL-ALIGN: middle; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.name {
+	DISPLAY: block; FONT-SIZE: 8px; TEXT-TRANSFORM: uppercase; TEXT-ALIGN: right; FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.transition .atomic {
+	FLOAT: left
+}
+.transition .code {
+	FLOAT: right
+}
+.transition .molar {
+	TEXT-ALIGN: right
+}
+.highlight {
+	BACKGROUND-COLOR: green
+}
+
+/* Для формы копирования ссылок в буфер обмена*/
+.linki {
+	background-color: #e4e2db;
+	padding: 5pt;
+	width: 100%;
+}
+label.tst {
+	display: block;
+}
+td.imgpanel {
+	vertical-align: bottom;
+}
+img.imgbutton {
+	margin: 2pt 7pt;
+	cursor: hand;
+}
+.tst{
+font-size: 12px;
+}
+
+under_search {
+font-size : 12px;
+font-weight:bold;
+}
+
+/* Для всплывающих меню ссылок */
+.shad {
+position:absolute;
+zoom:1;
+z-index:6;
+top:0;
+left:0;
+background:#000;
+border:2px solid #000;
+opacity:0.3;
+visibility:hidden;
+filter:alpha(opacity=30);
+padding:0;
+margin:0;
+}
+
+.tt {
+position:absolute;
+zoom:1;
+z-index:7;
+top:0;
+left:0;
+background:#fff;
+border:2px solid #981d00;
+visibility:hidden;
+padding:0;
+margin:0;
+}
+
+.tt li {
+background:#fff;
+display:block;
+float:left;
+clear:left;
+overflow:hidden;
+list-style:none;
+margin:0 7px;
+padding:0;
+height:18px;
+}
+
+.tt span {
+float:left;
+clear:left;
+font-style:italic;
+background:#981d00 url('image/ug.gif') right top no-repeat;
+color:#fff;
+margin:0;
+padding:0 13px 0 7px;
+height:13px;
+font-size:10px;
+line-height:13px;
+}
+
+.tt li a {
+background:#fff;
+vertical-align:bottom;
+white-space:nowrap;
+line-height:18px;
+font-size:12px;
+}
+
+
+#form1 strong {font:14px/20px Arial;}
+#form1 input {margin-bottom:10px;}
+#form1 input {background:url(image/forma_bg_1.png);}
+#form1 textarea {background:url(image/forma_bg_2.png);}
+#form1 input,textarea {border:1px solid #9a9a9a;}
+#form1 input,textarea {font:14px/16px Arial;}
+#form1 textarea {width:450px;}
+
+.tems a {display:block; clear:left; float:left; font:12px/14px Arial; margin-bottom:5px;}
+.tems {margin-bottom:15px;}
+.tems {margin-top:0!important;}
+.tems a {white-space:normal!important;}
+
+.pof_h1 {color:#d00; text-align:center; font:bold 18px/28px Arial; margin:15px 0 5px; width:100%; max-width:800px;}
+.pof_tab {border-collapse:collapse; border:1px solid #ddd; width:100%; max-width:800px; font:13px/15px Arial;}
+.pof_hdr {background:#eee; font-weight:bold;}
+.pof_tab td {padding:1px 5px 2px; border-bottom:1px solid #ddd;}
+.pof_tab td:first-child {white-space:nowrap;}
+.pof_tab td:first-child a {color:#666;}
+.pof_tab a {color:#0046b9; text-decoration:none;}
+.pof_tab a:hover {color:#0046b9!important; text-decoration:underline;}
+.pof_tab a:visited {color:#0046b9;}
+.pof_userov {font:bold 15px/19px Arial; margin:9px 0 3px;}
+.pof_spisok a {font:13px/17px Arial; color:#0046b9; text-decoration:none;}
+.pof_spisok a:hover {color:#0046b9; text-decoration:underline;}
+.pof_itogo {font:14px/17px Arial; margin:5px 0 15px;}
+.pof_newday {border-top:1px solid #fff;}
+.pof_newday td {padding:1px 0 0;}
+.pof_tab td b {font-weight:normal; text-align:right;display:block;margin-right:5px;}
+.pof_tab td i {font-style:normal; text-align:center; display:block;}
+
+
+
+
+#picto {border:0; border-collapse:collapse; width:100%; max-width:730px;}
+#picto td {width:33%;}
+#picto img {width:202px; height:129px; border:0;}
+#picto a {display:block; width:210px; height:129px; color:#000; font:bold 16px/17px Arial; letter-spacing:-1px; background:url(image/picto_bg.png) center top no-repeat; text-align:center; text-decoration:none; margin-bottom:40px;}
+#picto a:hover {background-position:center bottom; color:#901e10;}
+
+.tblxmk td {border:1px solid #aaa; padding:.2em .6em;}

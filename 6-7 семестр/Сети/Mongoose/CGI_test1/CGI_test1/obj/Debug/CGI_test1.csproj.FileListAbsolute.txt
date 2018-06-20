@@ -1,0 +1,5 @@
+D:\Лаба 2\CGI_test1\CGI_test1\bin\Debug\CGI_test1.exe
+D:\Лаба 2\CGI_test1\CGI_test1\bin\Debug\CGI_test1.pdb
+D:\Лаба 2\CGI_test1\CGI_test1\obj\Debug\CGI_test1.csprojResolveAssemblyReference.cache
+D:\Лаба 2\CGI_test1\CGI_test1\obj\Debug\CGI_test1.exe
+D:\Лаба 2\CGI_test1\CGI_test1\obj\Debug\CGI_test1.pdb
